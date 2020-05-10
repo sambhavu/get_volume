@@ -1,3 +1,15 @@
+#include<iostream> 
+#include<cmath> 
+using namespace std;
+
+
+
+class trade{
+public:
+double get_volume(double p, double max); 
+
+}; 
+
 
 double get_volume(double p, double max)
 {
@@ -32,3 +44,11 @@ double get_volume(double p, double max)
 } 
 
            
+int main()
+{
+trade x;
+double volume;
+
+volume=x.get_volume(.54,100000); 
+return 0;
+}
